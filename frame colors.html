@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame</title>
+    <style>
+        div {
+            height: 400px;
+            width: 50vw;
+            border: 1px solid #333;
+            transition: all 0.4s ease;
+        }
+        input {
+            width: 49.5vw;
+        }
+        div, input {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <input type="text" placeholder="Digite uma cor em inglês ou um código de fontes (Type a color or a color representation...)"/>
+    <script>
+        let box = document.querySelector("div");
+        input = document.querySelector("input");
+
+        input.addEventListener("input", () => {
+            box.style.borderRadius = input.value;
+            box.style.background = input.value;
+        });
+    </script>
+</body>
+</html>

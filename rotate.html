@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Rotates</title>
+    <style>
+        html, body {
+            background-color: #000;
+            overflow: hidden;
+        }
+       .primeiro {
+           margin: 155px auto;
+       }
+       span {
+           width: 10px;
+           height: 10px;
+           background: steelblue;
+           border-radius: 50%;
+           display: block;
+           margin-left: 30px;
+           box-shadow: 30px 30px 20px 2px steelblue;
+           -webkit-animation: rotate 10s linear infinite;
+           animation: rotate 10s linear infinite;
+       }
+       @keyframes rotate {
+           from {
+               transform: rotateZ(360deg);
+           }
+           to {
+               transform: rotateZ(8deg);
+           }
+       }
+       @-webkit-keyframes rotate {
+           from {
+               -webkit-transform: rotateZ(360deg);
+           }
+           to {
+               -webkit-transform: rotateZ(8deg);
+           }
+       }
+    </style>
+</head>
+<body>
+    <span class="primeiro"/>
+    <span/>
+    <span/>
+    <span/>
+    <span/>
+    <span/>
+</body>
+</html>
