@@ -62,8 +62,9 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
+nav.menu ul li a:hover {
     color: #ff7200;
+    background-color: #ffffff8e;
 }
 
 .pesquisa {
