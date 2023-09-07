@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Lâmpada</title>
+</head>
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    button {
+		    border: 0;
+		    background: #f60;
+		    color: white;
+            font-size: 1.1em;
+		    text-transform: uppercase;
+		    font-weight: 300;
+		    padding: 17px 60px;
+	    	cursor: pointer;
+		    outline: none;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -o-border-radius: 50px;
+            border-radius: 50px;
+	    	-webkit-transition: all .3s ease;
+	    	-moz-transition: all .3s ease;
+	    	-o-transition: all .3s ease;
+	    	transition: all .3s ease;
+    }
+</style>
+<body>
+    <center id="content">
+    <img id="lampada" class="apagada" src="imagens/lampada-apagada.jpg" alt="" title="Apagada">
+<br>
+    <button id="botao" onclick="alterarEstado();">Clique aqui</button>
+    </center>
+    <script>
+        function alterarEstado() {
+    	var lampada = document.getElementById('lampada');
+
+    	if(lampada.classList.contains("apagada")) {
+
+    		lampada.classList.add("ligada");
+
+    		lampada.classList.remove("apagada");
+
+    		lampada.src = "imagens/lampada-acesa.jpg";
+    	}else if(lampada.classList.contains("ligada")) {
+
+    		lampada.classList.add("apagada");
+
+    		lampada.classList.remove("ligada");
+
+    		lampada.src = "imagens/lampada-apagada.jpg";
+    	}
+    }
+
+    var texto = document.createElement("p");
+    texto.innerHTML = "Exemplo de Javascript";
+
+    document.getElementById("content").appendChild(texto);
+    </script>
+</body>
+</html>
