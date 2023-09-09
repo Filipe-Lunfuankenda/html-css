@@ -5,8 +5,6 @@
     <title>Frame</title>
     <style>
         div {
-            display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 400px;
@@ -15,12 +13,16 @@
             transition: all 0.4s ease;
         }
         input {
-           min-width: 44%;
+            width: 595px;
         }
         div, input {
             display: block;
             margin: auto;
-            overflow-x: auto;
+        }
+        @media screen and (orientation: portrait) {
+            input {
+                max-width: 400px;
+            }
         }
     </style>
 </head>
@@ -28,7 +30,7 @@
     <label for="input">
         <div></div>
     </label>
-    <input type="text" placeholder="Digite uma cor em inglês ou um código de fontes (Type a color or a color representation...)" id="input"/>
+    <input type="text" placeholder="Digite uma cor em inglês ou uma representação de cores (Type a color or a color representation...)" id="input"/>
     <script>
         let box = document.querySelector("div");
         input = document.querySelector("input");
