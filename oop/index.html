@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Orientada a Objetos</title>
+    <link rel="stylesheet" href="response.css">
+    <link rel="stylesheet" href="response-query.css">
+</head>
+<body onresize="mudandoTamanho()">
+    <header>
+        <h1>Programação Orientada a Objetos (POO)</h1>
+        <span id="burger" onclick="cliqueMenu()">&#x2630;</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">&#x1F3E0; Home</a></li>
+                <li><a href="#">&#128100; Perfil</a></li>
+                <li><a href="#">&#9993; Mensagens</a></li>
+                <li><a href="#">&#128222; Chamadas</a></li>
+                <li><a href="#">&#128276; Notificações</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>O que é POO?</h2>
+            <p>Oriented-Object Programming ou OOP (em português Programação Orientada a Objetos ou POO) é um paradigma de programação que organiza o códgido em torno de <strong>objectos</strong>, que são instâncias de classes. Ela visa modelar o mundo real de forma mais precisa e estruturada, facilitando o desenvolvimento, manutenção, confiabilidade e reutilização do código.</p>
+            <p>A POO surgiu na década de 1960, com influências de linguagens como <strong>Simula</strong> e <strong>Smalltalk</strong>. Seus fundamentos principais incluem: <em>encapsulamento</em> (ocultar detalhes internos do objeto), <em>herança</em> (criação de novas classes a partir de classes existentes), e <em>polimorfismo</em> (habilidade de objetos de diferentes classes responderem a um mesmo método).</p>
+            <p><strong>Alan Kay</strong> é frequentemente creditado como o criador do termo <strong><em>orientação a objetos</em></strong> e o conceito estava presente no sistema <b>Smalltalk</b>, desenvolvido por ele na década de 1970. No entanto, a ideia de objetos e classes já existia em linguagens anteiores, como <b>Simula</b>. A primeira linguagem orientada a objetos é amplamente considerada como <strong>Simula 67</strong>, desenvolvida por <strong>Ole-Johan Dahl</strong> e <strong>Kristen Nygaard</strong> na década de 1960. Ela foi a primeira linguagem a introduzit muitos dos conceitos fundamentais da POO.</p>
+            <p>O objetivo da Programação orientação a objetos, como foi dito, é de aproximar o mundo virtual ao mundo real cada vez mais. Por isso a POO traz vantagens de ser <strong><i>Confiável</i></strong>, <strong><i>Oportuno</i></strong>, <strong><i>Manutenível</i></strong>, <strong><i>Natural</i></strong>, <strong><i>Extensível</i></strong> e <strong><i>Reutilizável</i></strong>.</p>
+            <p>Os fundamentos da Programação orientada a objetos são em grande parte consistentes em todas as linguagens de programação orientadas a objetos. Embora a linguagens possam ter suas próprias sintaxes e peculiaridades, os conceitos fundamentais da POO são amplamente aplicáveis em diversas linguagens. Os maiores conceitos-chave da POO que são compartilhados entre a maioria das linguagens incluem: </p>
+            <ol>
+                <li><strong>Classes e Objetos</strong>: a ideia de criar classes como modelos para objetos que possuem características (<strong>atributos</strong>) e comportamentos (<strong>métodos</strong>) específicos.</li>
+                <li><strong>Encapsulamento</strong>: a capacidade de agrupar dados (atributos) e métodos que operam nesses dados em uma única unidade (classe) e controlar o acesso a eles.</li>
+                <li><strong>Herança</strong>: a habilidade de criar novas classes (<strong>subclasses</strong>) a partir de classes existentes (<strong>superclasses</strong>) e herdar suas características e comportamentos.</li>
+                <li><strong>Polimorfismo</strong> (como o nome já diz, <i>poli</i> - muitos(as) e <i>morfismo</i> - forma): a capacidade de objetos de diferentes classes responderem aos mesmos métodos de maneira única, permitindo a susbtituição de métodos em subclasses.</li>
+                <li><strong>Abstração</strong>: a capacidade de modelar objetos do mundo real como entidades abstratas em seu programa, focando apenas nas características relevantes.</li>
+                <li><strong>Associações e Relacionamentos</strong>: a capacidade de definir associações entre classes, como <em>agregação</em>, <em>composição</em> e <em>associação direta</em>.</li>
+            </ol> <br>
+            <p>Embora as linguagens possam ter termiologias diferentes e implementações específicas para esses conceitos, a compreensão dos princípios fundamentais da POO em uma linguagem pode ser aplicada à maioria das outras linguagens orientadas a objetos. Portanto, Se você entender os conceitos em uma linguagem, provavelmente terá uma base sólida para trabalhar com POO em outras linguagens também. Dentre as linguagens de programação orientadas a objetos mais populares estão:</p>
+            <ul type="circle">
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>Ruby</li>
+                <li>Swift</li>
+                <li>Kotlin</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>TypeScript</li>
+                <li>Scala</li>
+                <li>Go (Golang)</li>
+                <li>Rust</li>
+                <li>Objective-C</li>
+                <li>Elixir</li>
+            </ul> <br>
+            <p>Numa definição mais concreta, um <strong>objeto</strong> é uma coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual. Uma <strong>classe</strong> define os atributos e métodos comuns que serão compartilhados por um objeto. Por esta razão, <strong><em>um objeto é a instância de uma determinada classe</em></strong>.</p>
+            <p><span>Encapsular</span> signfica ocultar partes independentes da implementação, permitindo construir partes "invisíveis" ao mundo exterior. A <strong>Interface</strong> é a lista de serviços fornecidos por um componente, ou seja, é o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe. É importante lembrar que encapsular não é obrigatório, mas é uma boa prática para produzir Classes mais eficientes. Existem dois principais conceitos relacionados ao encapsulamento: o de <em>dados</em> e o de <em>comportamento</em>.</p>
+            <p>O <span>encapsulamento de dados</span> refere-se à prática de ocultar os detalhes internos dos objetos e fornecer uma interface pública para interagir com eles. Isso é geralmente alcançado definindo atributos privados e fornecendo métodos públicos (<em>getters</em> e <em>setters</em>) para acessar e modificar esses atributos. Este é o encapsulamento mais comum.</p>
+            <p>O <span>encapsulamento de comportamento</span> envolve esconder a complexidade do comportamento do objeto, fornecendo métodos públicos que permitem que os clientes do objeto realizem tarefas sem precisar entender detalhes internos complicados.</p>
+            <p>Para garantir o encapsulamento e o controle de acesso aos atributos de uma classe é necessário estabelecer se determinado método ou atributo é público(+), privado(-) ou protegido(#), bem como os <b>métodos acessores</b> (getter) e <b>modificadores</b> (setters) de determinado atributo.</p>
+            <p>A visibilidade <span>privada</span> (<span><i>private</i></span>) é usada para atributos ou métodos que só podem ser acessados dentro da própria classe em que foram declarados. Eles não são acessíveis a partir de classes externas.</p>
+            <p>A visibilidade <span>pública</span> (<span><i>public</i></span>) é usada para atributos ou métodos que podem ser acessados de qualquer lugar, seja dentro da classe, de outras classes ou até mesmo fora da classe. Eles são amplamente acessíveis e não impõem restrições significativas.</p>
+            <p>A visibilidade <span>protegida</span> (<span><i>protected</i></span>) permite que os atributos ou métodos sejam acessados dentro da classe em que foram declarados e também por classes derivadas (subclasses). Eles não podem ser acessados diretamente por classes externas à hierarquia de herança.</p>
+            <p>Um método <strong>Getter</strong> é um método público em uma classe que é usado para recuperar (ou obter) o valor de um atributo privado. Os getters geralmente seguem um padrão de nomenclatura como <code>getNomeDoAtributo()</code>. Eles permitem que você acesse o valor de um atributo sem expor diretamente o atributo em si.</p>
+            <p>Um método <strong>Setter</strong> é um método público em uma classe que é usado para definir (ou alterar) o valor de um atributo privado. Os setters geralmente seguem um padrão de nomenclatura como <code>setNomeDoAtributo(valor)</code>, e são quase sempre declarados com parâmetros. Eles permitem que você modifique o valor de um atributo, geralmente incluindo verificações ou validações antes de fazer a alteração.</p>
+            <p>O uso de visibilidade ou modificadores de acesso como <i>private</i>, <i>public</i> e <i>protected</i>, juntamente com <i>getters</i> e <i>setters</i>, é uma prática comum em orientação a objetos para garantir a encapsulação, ou seja, controlar o acesso aos membros de uma classe e manter a integridade dos dados. Isso ajuda a prevenir a manipulação de indevida dos atributos da classe e permite a validação e lógica personalizada durante as operações de leitura e gravação.</p>
+            <p>A <span>Herança</span> permite basear uma nova classe na definição de uma outra classe previamente existente, e será aplicada tanto para as características quanto para os comportamentos. Na orientação a objetos, geralmente são conhecidos dois principais tipos de herança: </p>
+            <ol>
+                <li><strong>Herança de Implementação</strong> (ou <b>herança de classe</b>): nesse tipo de herança, uma classe (classe filha ou derivada) herda os membros (atributos e métodos) de outra classe (classe pai ou base) e pode estender ou modificar o seu comportamento. A herança de implementação é usada para criar uma hierarquia de classes e compartilhar funcionalidades comuns entre elas.</li>
+                <li><strong>Herança de Interface</strong>: ocorre quando uma classe declara que implementará uma interface, o que signfica que ela concorda em fornecer implementações para os métodos definidos na interface.  A herança de interface é usada para definir contratos ou comportamentos esperados que as classes devem seguir.</li>
+            </ol> <br>
+            <p>O <span>Polimorfismo</span> permite que um mesmo nome represente vários comportamentos diferentes. Existem quatro tipos de polimorfismo: <em>sobreposição</em> ou <em>Override</em> (<strong>mesma assinatura e classes diferentes</strong>), <em>sobrecarga</em> ou <em>Overloading</em> (<strong>assinaturas diferentes e mesma classe</strong>), <em>inclusão</em> ou <em>Subtipo</em> e <em>paramétrico</em> ou <em>Generics</em>. O polimorfismo de sobreposição acontece quando <span>susbtituímos</span> um método de uma superclasse na sua subclasse, usando a <span>mesma assinatura</span>. A <span>Assinatura do método</span> representa a quantidade e os tipos de variáveis dos parâmetros de um determinado método.</p>
+            <p>A <span>sobrecarga</span> ocorre quando duas ou mais funções ou métodos em uma mesma classe têm o mesmo nome, mas diferentes listas de parâmetros. O compilador ou interpretador escolhe qual função ou método chamar com base nos argumentos passados.</p>
+            <p>A <span>sobreposição</span> ocorre quando uma classe filha (derivada) fornece uma implementação específica para um método que ja existe em sua classe pai (base). Isso permite que objetos da classe filha se comportem de maneira diferente quando o método é chamado, respeitando a hierarquia de herança.</p>
+            <p>O <span>polimorfismo de inclusão</span> se refere à capacidade de tratar um objeto de uma classe derivada como um objeto de sua classe base. Isso permite que você chame métodos específicos da classe derivada, mesmo quando o objeto é referenciado como classe base. Esse tipo de polimorfismo esta relacionado à herança e à implementação de métodos virtuais.</p>
+            <p>O <span>polimorfismo paramétrico</span> permite que você escreva código que funcione com tipos diferentes, sem especificar os tipos concretos. É frequentemente usado em linguagens de programação que suportam tipos genéricos como C++, Java ou C#. Isso permite escrever código que pode ser utilizado para diferentes tipos de dados.</p>
+            <p>Para modificar o comportamento e as características de classes e métodos, aplicam-se os conceitos <b>abstrato</b> e <b>final</b>, usados para definir estruturas e comportamentos que devem ser implementados por subclasses, ou para impedir a extensão ou a sobrescrita, garantindo a integridade do design da classe.</p>
+            <ul>
+                <li><strong>Classe Abstrata</strong> (<strong>Abstract Class</strong>): não pode ser instanciada, só pode servir como progenitora.</li>
+                <li><strong>Classe Final</strong> (<strong>Final Class</strong>): não pode ser herdada por outra classe. Obrigatoriamente folha, ou seja, a última subclasse sem ter outra subclasse.</li>
+                <li><strong>Método Abstrato</strong> (<strong>Abstract Method</strong>): é declarado mas não pode ser implementado na progenitora.</li>
+                <li><strong>Método Final</strong> (<strong>Final Method</strong>): não pode ser sobrescrito pelas suas subclasses. Obrigatoriamente herdado.</li>
+            </ul> <br>
+            <p>Então, uma <span>classe abstrata</span> é uma classe que não pode ser instanciada diretamente, ou seja, não é possível criar objetos a partir dela. Ela é usada para como uma classe base para outras classes derivadas (subclasses). Pode conter métodos abstratos (métodos sem implementação) que as subclasses são obrigadas a implementar. Pode também conter métodos concretos (métodos com implementação) que as subclasses podem herdar. É definida usando a palavra-chave <b>abstract</b>.</p>
+            <p>Um <span>método abstrato</span> é um método declarado em uma classe abstrata, mas não possui implementação na classe base. As subclasses que herdam uma classe abstrata devem fornecer implementações para todos os métodos abstratos da classe base. É declarado usando a palavra-chave <b>abstract</b>.</p>
+            <p>Uma <span>classe final</span> é uma classe que não pode ser estendida (não pode ter subclasses). Ela é usada quando se deseja que outras classes herdem dela. Pode ser usada para garantir que uma classe não seja modificada ou estendida em contextos em que a extensão não é desejada. É definida usanda a palavra-chave <b>final</b>.</p>
+            <p>Um <span>método final</span> é um método em uma classe que não pode ser sobrescrito (não pode ser alterado em subclasses). É usado quando se deseja garantir que o comportamento de um método não seja modificado nas subclasses. É declarado usando a palavra-chave <b>final</b>.</p>
+        </article>
+    </main>
+    <script>
+        function cliqueMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+
+        function mudandoTamanho() {
+            if (innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
