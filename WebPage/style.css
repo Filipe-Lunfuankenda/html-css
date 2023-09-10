@@ -247,7 +247,7 @@ nav.menu ul li a:hover {
     color: #ff7200;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 600px) {
     .main {
         background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(arvore-por.jpg);
         background-size: cover;

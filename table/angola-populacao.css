@@ -40,6 +40,7 @@ thead > tr > th {
     position: sticky;
     top: -1px;
     background-color: #746c6c;
+    background-attachment: fixed;
     color: aliceblue;
     font-weight: bolder;
     font-size: 1em;
@@ -89,4 +90,17 @@ figure > figcaption {
     font-weight: bold;
     color: #5e0b0f;
     text-shadow: 1px 1px 1px rgba(204, 3, 3, 0.76);
+}
+
+@media screen and (max-width: 768px) {
+	table {
+		width: 45vw;
+	}
+	figure {
+		float: right;
+		padding: 20px;
+	}
+	figure > img {
+		width: 250px;
+	}
 }
