@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Log In</h1>
+                <p>Faça <b style="color: blueviolet;">log in</b> para acessar a sua conta</p>
+                <form action="login.html" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span>👤</span><input type="email" name="e-mail" id="e-mail" placeholder="Digite o seu nome completo, email ou nº de telefone" autocomplete="name email username cc-number" maxlength="30" size="45" required>
+                        <label for="e-mail">Endereço</label>
+                    </div>
+                    <div class="campo">
+                        <span>&#128274;</span><input type="password" name="senha" id="senha" placeholder="Digite a sua senha" required autocomplete="current-password new-password" size="45" minlength="8" maxlength="20">
+                        <label for="senha">Palavra-Passe</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="forget">Esqueceu a senha?📮</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
