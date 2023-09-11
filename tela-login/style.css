@@ -29,10 +29,10 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    width: 450px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     border-radius: 18px;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 1px 1px 7px rgba(151, 125, 41, 0.5);
     transition: width .2s, height .2s;
     transition-timing-function: ease;
@@ -73,16 +73,25 @@ form > div.campo {
     margin: 5px 0px;
 }
 
-form label {
-    display: none;
+label {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+input#nasc {
+    margin-left: 185px;
 }
 
 div.campo > span {
     color: #fff;
     background-color: #4b2266;
-    font-size: 1.85em;
+    font-size: 1.8em;
     width: 40px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 div.campo input {
@@ -94,12 +103,34 @@ div.campo input {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-top: -38.5px;
-    margin-left: 34px;
+    margin-left: 140px;
     padding: 5px;
 }
 
 div.campo > input:focus-within {
     background-color: white;
+}
+
+fieldset {
+    border-color: #4b2266;
+    margin: 20px;
+}
+
+fieldset legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #49a066;
+    padding: 5px;
+    text-align: center;
+}
+
+fieldset label {
+    color: black;
+    margin: 5px;
+}
+
+fieldset input[type=radio] {
+    margin-left: 30px;
 }
 
 form > input[type=submit] {

@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 750px) and (max-width: 992px) {
+@media screen and (min-width: 700px) and (max-width: 992px) {
     section#login {
-        width: 80vw;
+        width: 70vw;
+        overflow: hidden;
     }
 
     section#login > div#imagem {
