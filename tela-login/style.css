@@ -32,7 +32,7 @@ section#login {
     width: 500px;
     height: 600px;
     border-radius: 18px;
-    overflow: auto;
+    overflow-y: auto;
     box-shadow: 1px 1px 7px rgba(151, 125, 41, 0.5);
     transition: width .2s, height .2s;
     transition-timing-function: ease;
