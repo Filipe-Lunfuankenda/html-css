@@ -91,6 +91,12 @@ input#nasc {
     margin-left: 185px;
 }
 
+input::placeholder {
+    color: #2d6361;
+    font-style: italic;
+    font-size: .9em;
+}
+
 div.campo > span {
     color: #fff;
     background-color: #4b2266;

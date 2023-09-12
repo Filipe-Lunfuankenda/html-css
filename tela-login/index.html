@@ -18,7 +18,7 @@
                 <p>Faça <b style="color: blueviolet;">log in</b> para acessar a sua conta</p>
                 <form action="login.html" method="post" autocomplete="on">
                     <div class="campo">
-                        <span>👤</span><label for="nome">Nome</label>
+                        <span>&#x1F464;</span><label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite o seu nome completo" autocomplete="name username" maxlength="30" size="30" required>
                     </div>
                     <div class="campo">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="campo">
                         <span>📱</span><label for="num" id="tel">Nº de Telefone</label>
-                        <input type="number" name="num" id="num" placeholder="O seu número de telefone" size="30" min="0" max="999999999999999999">
+                        <input type="number" name="num" id="num" placeholder="O seu número de telefone" size="30" min="0" max="999999999999999999" autocomplete="cc-number tel">
                     </div>
                     <div class="campo">
                         <span>🗺</span><label for="country">País</label>
@@ -236,14 +236,14 @@
                         </datalist> 
                     </div>
                     <fieldset><legend>Sexo</legend>
-                        <input type="radio" name="sexo" id="masc"><label for="masc">Masculino</label> <br>
-                        <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+                        <input type="radio" name="sexo" id="masc" checked><label for="masc">&#x1F6B9; Masculino</label> <br>
+                        <input type="radio" name="sexo" id="fem"><label for="fem">&#x1F6BA; Feminino</label>
                     </fieldset>
                     <div class="campo">
                         <span>📅</span><label for="nasc">Data de Nascimento</label>
                         <input type="date" name="nasc" id="nasc">
                     </div>
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="&#x1F511; Entrar">
                     <a href="#" class="forget">Esqueceu a senha?📮</a>
                 </form>
             </div>
