@@ -33,6 +33,7 @@ section#login {
     height: 600px;
     border-radius: 18px;
     overflow-y: auto;
+    overflow-x: hidden;
     box-shadow: 1px 1px 7px rgba(151, 125, 41, 0.5);
     transition: width .2s, height .2s;
     transition-timing-function: ease;
