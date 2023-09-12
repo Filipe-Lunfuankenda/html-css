@@ -59,10 +59,10 @@
     }
 }
 
-@media screen and (max-height: 640px) {
+@media screen and (max-height: 640px) and (max-width: 560) {
     section#login {
         height: 90vh;
-        width: 80vw;
+        width: 75vw;
     }
 
     section#login > div#imagem {
