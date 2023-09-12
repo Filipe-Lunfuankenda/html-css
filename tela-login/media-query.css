@@ -16,6 +16,10 @@
         float: right;
         width: 70%;
     }
+
+    form input {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 992px) {
