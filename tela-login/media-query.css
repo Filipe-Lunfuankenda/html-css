@@ -79,9 +79,9 @@
     }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-height: 620px) {
     section#login {
-        height: 90vh;
+        height: 86vh;
         width: 80vw;
     }
 
