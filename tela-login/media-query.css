@@ -3,8 +3,8 @@
 @media screen and (min-width: 560px) and (max-width: 992px) {
     section#login {
         width: 60vw;
-	background-size: contain;
-	background-attachment: fixed;
+        background-size: contain;
+        background-attachment: fixed;
     }
 
     section#login > div#imagem {
@@ -57,5 +57,11 @@
     section#login > div#formulario {
         float: right;
         width: 50%;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    section#login {
+        height: 90vh;
     }
 }
