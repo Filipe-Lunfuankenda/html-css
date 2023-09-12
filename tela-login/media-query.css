@@ -65,22 +65,15 @@
         width: 75vw;
     }
 
+    section#login > div#imagem {
+        height: 50%;
+    }
+
     div.campo input {
         width: 20%;
     }
 
     div.campo label {
         font-size: .4em;
-    }
-}
-
-@media screen and (max-height: 640px) and (max-width: 560) and (orientation: landscape) {
-    section#login {
-        height: 90vh;
-        width: 75vw;
-    }
-
-    section#login > div#imagem {
-        height: 100%;
     }
 }
