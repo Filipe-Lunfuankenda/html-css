@@ -66,11 +66,12 @@
     }
 
     section#login > div#imagem {
-        height: 100%;
+        height: 50%;
     }
 
     div.campo input {
-        width: 20%;
+        width: 40%;
+        margin-top: -42px;
     }
 
     div.campo label {
