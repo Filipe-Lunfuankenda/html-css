@@ -68,4 +68,12 @@
     section#login > div#imagem {
         height: 100%;
     }
+
+    div.campo input {
+        width: 20%;
+    }
+
+    div.campo label {
+        font-size: .4em;
+    }
 }
