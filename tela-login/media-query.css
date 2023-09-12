@@ -4,7 +4,6 @@
     section#login {
         width: 60vw;
         background-size: contain;
-        background-attachment: fixed;
     }
 
     section#login > div#imagem {
@@ -63,5 +62,10 @@
 @media screen and (max-height: 640px) {
     section#login {
         height: 90vh;
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        height: 100%;
     }
 }
