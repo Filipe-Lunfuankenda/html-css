@@ -63,6 +63,12 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 1em;
     margin-bottom: 15px;
+    text-indent: 25px;
+}
+
+b:hover {
+    text-decoration: underline;
+    cursor: cell;
 }
 
 form > div.campo {

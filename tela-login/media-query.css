@@ -33,11 +33,18 @@
         font-size: 1em;
         padding: 2px;
     }
+
+    fieldset input[type=radio], fieldset label {
+        margin-left: -40px;
+    }
+
+    
 }
 
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
+        overflow: hidden;
     }
 
     section#login > div#imagem {
