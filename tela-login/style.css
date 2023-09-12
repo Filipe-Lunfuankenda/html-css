@@ -54,7 +54,7 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-size: 2em;
     color: #822c3fa9;
     font-weight: 900;
@@ -126,14 +126,14 @@ div.campo > input:focus-within {
 
 fieldset {
     border-color: #4b2266;
-    margin: 20px;
+    margin: 7px;
 }
 
 fieldset legend {
     font-size: 1.4em;
     font-weight: bold;
     color: #49a066;
-    padding: 5px;
+    padding: 3px;
     text-align: center;
 }
 
