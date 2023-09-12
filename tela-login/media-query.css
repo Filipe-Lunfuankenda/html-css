@@ -78,3 +78,14 @@
         font-size: .6em;
     }
 }
+
+@media screen and (orientation: landscape) {
+    section#login {
+        height: 90vh;
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        height: 100%;
+    }
+}
