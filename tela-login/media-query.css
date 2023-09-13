@@ -90,4 +90,15 @@
     section#login > div#imagem {
         height: 100%;
     }
+
+    div.campo input {
+        width: 40%;
+        font-size: 1em;
+        margin-top: -30px;
+        margin-left: 110px;
+    }
+
+    div.campo label {
+        font-size: 1em;
+    }
 }
