@@ -94,15 +94,16 @@
     div.campo input {
         width: 40%;
         font-size: 1em;
-        margin-top: -30px;
-        margin-left: 110px;
+        margin-top: -35px;
+        margin-left: 140px;
     }
 
     div.campo label {
-        font-size: 1em;
+        font-size: .8em;
     }
 
     input#nasc {
-        margin-left: 115px;
+        margin-left: 120px;
+        width: 20%;
     }
 }
