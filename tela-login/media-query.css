@@ -72,12 +72,16 @@
     div.campo input {
         width: 40%;
         font-size: 1em;
-        margin-top: -28px;
-        margin-left: 110px;
+        margin-top: -33px;
+        margin-left: 140px;
     }
 
     div.campo label {
         font-size: 1em;
+    }
+
+    input#nasc {
+        width: 20%;
     }
 }
 
