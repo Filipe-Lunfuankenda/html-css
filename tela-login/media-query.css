@@ -73,7 +73,7 @@
         width: 40%;
         font-size: 1em;
         margin-top: -36px;
-        margin-left: 140px;
+        margin-left: 160px;
     }
 
     div.campo label {
@@ -82,7 +82,7 @@
 
     input#nasc {
         width: 20%;
-        margin-left: 125px;
+        margin-left: 130px;
     }
 }
 
