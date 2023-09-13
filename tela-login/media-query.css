@@ -57,6 +57,10 @@
         float: right;
         width: 50%;
     }
+
+    div.campo input {
+        margin-top: -38.5px;
+    }
 }
 
 @media screen and (max-height: 640px) and (max-width: 560px) {
@@ -99,7 +103,7 @@
     div.campo input {
         width: 50%;
         font-size: 1em;
-        margin-top: -34.5px;
+        margin-top: -33px;
         margin-left: 140px;
     }
 
