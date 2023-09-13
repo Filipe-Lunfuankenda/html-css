@@ -71,13 +71,13 @@
 
     div.campo input {
         width: 40%;
-        font-size: 1.1em;
+        font-size: 1em;
         margin-top: -33px;
         margin-left: 110px;
     }
 
     div.campo label {
-        font-size: .6em;
+        font-size: 1em;
     }
 }
 
