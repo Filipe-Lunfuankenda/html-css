@@ -101,4 +101,8 @@
     div.campo label {
         font-size: 1em;
     }
+
+    input#nasc {
+        margin-left: 115px;
+    }
 }
