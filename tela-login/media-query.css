@@ -82,7 +82,7 @@
 
     input#nasc {
         width: 23%;
-        margin-left: 180px;
+        margin-left: 170px;
     }
 }
 
@@ -99,7 +99,7 @@
     div.campo input {
         width: 50%;
         font-size: 1em;
-        margin-top: -36px;
+        margin-top: -34.5px;
         margin-left: 140px;
     }
 
@@ -108,7 +108,7 @@
     }
 
     input#nasc {
-        margin-left: 185px;
+        margin-left: 180px;
         width: 30%;
     }
 }
