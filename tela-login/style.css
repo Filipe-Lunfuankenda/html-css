@@ -44,7 +44,7 @@ section#login > div#imagem {
     background: url(pattern.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
-    height: 200px;
+    height: 100%;
 }
 
 section#login > div#formulario {
