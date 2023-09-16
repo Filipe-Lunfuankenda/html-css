@@ -10,6 +10,7 @@
         float: left;
         width: 30%;
         height: 100%;
+        background-attachment: fixed;
     }
 
     section#login > div#formulario {
@@ -59,7 +60,7 @@
     }
 
     div.campo input {
-        margin-top: -38.5px;
+        margin-top: -38px;
     }
 }
 
