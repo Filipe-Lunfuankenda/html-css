@@ -77,9 +77,9 @@
 
     div.campo input {
         width: 40%;
-        font-size: 1em;
+        font-size: .8em;
         margin-top: -34px;
-        margin-left: 140px;
+        margin-left: 138px;
     }
 
     div.campo label {
