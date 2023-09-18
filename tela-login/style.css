@@ -55,14 +55,14 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 8px;
-    font-size: 2em;
+    font-size: 2.2em;
     color: #822c3fa9;
     font-weight: 900;
     text-shadow: 1px 1px 1px #602c82a9;
 }
 
 div#formulario > p {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 15px;
     text-indent: 25px;
 }
