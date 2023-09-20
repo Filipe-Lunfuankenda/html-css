@@ -17,8 +17,8 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
-    color: rgb(48, 48, 148);
-    text-shadow: 1px 1px 1px rgb(48, 148, 148);
+    color: rgb(49, 80, 23);
+    text-shadow: 1px 1px 1px rgba(48, 148, 101, 0.452);
     background-color: rgb(140, 138, 130);
 }
 
