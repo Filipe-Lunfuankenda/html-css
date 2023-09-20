@@ -89,6 +89,10 @@ article ol li, article ul li {
     line-height: 24px;
 }
 
+article ol ul li {
+    margin-left: 95px;
+}
+
 article span {
     color: rgb(44, 43, 80);
     text-shadow: .5px .5px 0px rgb(48, 48, 48);
