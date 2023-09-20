@@ -69,42 +69,56 @@
             </ol> <br>
             <p>Esses são exemplos práticos de como a criptografia é usada no mundo digital para proteger a privacidade e a segurança das comunicações e dos dados. A segurança reside na proteção da chave de descriptografia, que é necessária para acessar as informações originais.</p>
             <p>Existem também várias ferramentas e bibliotecas específicas para trabalhar com criptografia, que facilitam a implementação de técnicas criptográficas em diferentes aplicativos e sistemas. Aqui estão algumas categorias de ferramentas e exemplos:</p>
-            Bibliotecas de Criptografia:
-            1.	OpenSSL:** Uma biblioteca de código aberto amplamente usada que oferece uma variedade de algoritmos criptográficos e protocolos de segurança.
-            2.	Bouncy Castle:** Uma biblioteca Java que fornece suporte para uma ampla gama de algoritmos criptográficos.
-            3.	libsodium:** Uma biblioteca de criptografia moderna e fácil de usar, projetada para ser segura por padrão.
-            Ferramentas de Criptografia de Arquivos:**
-            1.	Veracrypt:** Uma ferramenta para criar volumes criptografados e proteger arquivos e diretórios.
-            2.	BitLocker:** Uma ferramenta integrada ao Windows para criptografar discos rígidos e unidades USB.
-            Ferramentas de Comunicação Segura:**
-            1.	GnuPG (GPG):** Uma implementação gratuita do PGP (Pretty Good Privacy) que permite criptografar e assinar e-mails e arquivos.
-            2.	Signal:** Um aplicativo de mensagens que oferece criptografia de ponta a ponta para comunicações seguras.
-            Ferramentas de Criptografia de E-mail:**
-            1.	ProtonMail:** Um serviço de e-mail seguro que criptografa automaticamente as mensagens entre usuários do ProtonMail.
-            2.	Enigmail:** Uma extensão para Thunderbird que facilita o uso do GPG para criptografar e-mails.
-            Ferramentas de Desenvolvimento:**
-            1.	Cryptography (Python):** Uma biblioteca Python que oferece suporte para vários algoritmos e protocolos criptográficos.
-            2.	Bouncy Castle (Java):** Como mencionado anteriormente, uma biblioteca Java que lida com criptografia.
-            Ferramentas de Gerenciamento de Chaves:**
-            1.	**Keyczar:** Uma biblioteca e ferramenta de linha de comando para gerenciamento de chaves criptográficas.
-            2.	**AWS Key Management Service (KMS):** Um serviço da Amazon Web Services para gerenciar chaves de criptografia na nuvem.
-
-
-            Essas ferramentas facilitam a implementação de criptografia em várias aplicações, desde proteger arquivos pessoais até garantir a segurança de comunicações na web. A escolha da ferramenta depende dos requisitos específicos do projeto e da linguagem de programação que você está usando.
-            Além dos conceitos fundamentais da criptografia, há algumas considerações adicionais importantes que você deve estar ciente:
-            1.	**Segurança não é garantida:** Embora a criptografia seja uma ferramenta poderosa para proteger informações, ela não é invulnerável. Ataques cibernéticos estão em constante evolução, e é fundamental acompanhar as melhores práticas de segurança.
-            2.	**Força das Chaves:** A segurança da criptografia depende da força da chave. Chaves mais longas e complexas são mais seguras, mas também podem ser mais lentas de processar. Encontre um equilíbrio adequado entre segurança e desempenho.
-            3.	**Gerenciamento de Chaves:** O gerenciamento adequado das chaves é crítico. Perder ou comprometer uma chave de criptografia pode resultar na perda permanente de acesso aos dados. Implementar um sistema robusto de gerenciamento de chaves é essencial.
-            4.	**Padrões Atuais:** Esteja ciente dos padrões de criptografia atualmente recomendados, uma vez que algoritmos mais antigos podem estar vulneráveis a ataques. Fique atualizado com as práticas recomendadas pela comunidade de segurança.
-            5.	**Compliance e Regulamentações:** Dependendo da sua aplicação, você pode estar sujeito a regulamentações de criptografia específicas. Por exemplo, setores como serviços financeiros e saúde têm padrões rigorosos de segurança de dados.
-            6.	**Criptografia em Trânsito e em Repouso:** Compreenda a diferença entre criptografia em trânsito (proteger dados durante a transferência, como SSL/TLS) e criptografia em repouso (proteger dados armazenados em dispositivos ou servidores).
-            7.	**Criptografia Quântica:** Esteja ciente do avanço da computação quântica, que pode ameaçar a segurança de algoritmos criptográficos tradicionais. A pesquisa em criptografia pós-quântica está em andamento.
-            8.	**Resiliência contra Ataques:** Pense em como sua implementação criptográfica lida com ataques, como ataques de força bruta, ataques de dicionário e ataques de texto claro conhecido.
-            9.	**Criptoanálise:** Compreenda os princípios de criptoanálise, que é o estudo de como quebrar sistemas de criptografia. Isso pode ajudar a projetar sistemas mais seguros.
-            10.	**Documentação e Boas Práticas:** Mantenha um registro detalhado de como a criptografia é implementada em seu projeto, incluindo informações sobre algoritmos, chaves e processos de recuperação. Siga as melhores práticas de desenvolvimento seguro.
-            11.	**Conscientização sobre Segurança:** Eduque-se e eduque sua equipe sobre as ameaças de segurança cibernética e a importância da criptografia como parte de uma estratégia geral de segurança.
-            12.	**Testes e Auditoria:** Realize testes regulares de segurança e auditorias para identificar vulnerabilidades e garantir que as implementações criptográficas sejam sólidas.
-            A criptografia desempenha um papel fundamental na segurança digital, mas é importante tratá-la como parte de uma estratégia de segurança mais ampla. Mantenha-se atualizado sobre os desenvolvimentos no campo da criptografia e siga as melhores práticas para garantir a proteção eficaz dos dados.
+            <ol>
+                <li>Bibliotecas de Criptografia:</li>
+                <ul>
+                    <li>OpenSSL: uma biblioteca de código aberto amplamente usada que oferece uma variedade de algoritmos criptográficos e protocolos de segurança.</li>
+                    <li>Bouncy Castle: uma biblioteca Java que fornece suporte para uma ampla gama de algoritmos criptográficos.</li>
+                    <li>libsodium: uma biblioteca de criptografia moderna e fácil de usar, projetada para ser segura por padrão.</li>
+                </ul>
+                <li>Ferramentas de Criptografia de Arquivos:</li>
+                <ul>
+                    <li>Veracrypt: uma ferramenta para criar volumes criptografados e proteger arquivos e diretórios.</li>
+                    <li>BitLocker: uma ferramenta integrada ao Windows para criptografar discos rígidos e unidades USB.</li>
+                </ul>
+                <li>Ferramentas de Comunicação Segura:</li>
+                <ul>
+                    <li>GnuPG (GPG): Uma implementação gratuita do PGP (Pretty Good Privacy) que permite criptografar e assinar e-mails e arquivos.</li>
+                    <li>Signal: Um aplicativo de mensagens que oferece criptografia de ponta a ponta para comunicações seguras.</li>
+                </ul>
+                <li>Ferramentas de Criptografia de E-mail:</li>
+                <ul>
+                    <li>ProtonMail: Um serviço de e-mail seguro que criptografa automaticamente as mensagens entre usuários do ProtonMail.</li>
+                    <li>Enigmail: Uma extensão para Thunderbird que facilita o uso do GPG para criptografar e-mails.</li>
+                </ul>
+                <li>Ferramentas de Desenvolvimento:</li>
+                <ul>
+                    <li>Cryptography (Python): Uma biblioteca Python que oferece suporte para vários algoritmos e protocolos criptográficos.</li>
+                    <li>Bouncy Castle (Java): Como mencionado anteriormente, uma biblioteca Java que lida com criptografia.</li>
+                </ul>
+                <li>Ferramentas de Gerenciamento de Chaves:</li>
+                <ul>
+                    <li>Keyczar: Uma biblioteca e ferramenta de linha de comando para gerenciamento de chaves criptográficas.</li>
+                    <li>AWS Key Management Service (KMS):** Um serviço da Amazon Web Services para gerenciar chaves de criptografia na nuvem.</li>
+                </ul>
+            </ol> <br>
+            <p>Essas ferramentas facilitam a implementação de criptografia em várias aplicações, desde proteger arquivos pessoais até garantir a segurança de comunicações na web. A escolha da ferramenta depende dos requisitos específicos do projeto e da linguagem de programação que você está usando.</p>
+            <p>Além dos conceitos fundamentais da criptografia, há algumas considerações adicionais importantes que você deve estar ciente:</p>
+            <ol>
+                <li>Segurança não é garantida: Embora a criptografia seja uma ferramenta poderosa para proteger informações, ela não é invulnerável. Ataques cibernéticos estão em constante evolução, e é fundamental acompanhar as melhores práticas de segurança.</li>
+                <li>Força das Chaves: A segurança da criptografia depende da força da chave. Chaves mais longas e complexas são mais seguras, mas também podem ser mais lentas de processar. Encontre um equilíbrio adequado entre segurança e desempenho.</li>
+                <li>Gerenciamento de Chaves: O gerenciamento adequado das chaves é crítico. Perder ou comprometer uma chave de criptografia pode resultar na perda permanente de acesso aos dados. Implementar um sistema robusto de gerenciamento de chaves é essencial.</li>
+                <li>Padrões Atuais: Esteja ciente dos padrões de criptografia atualmente recomendados, uma vez que algoritmos mais antigos podem estar vulneráveis a ataques. Fique atualizado com as práticas recomendadas pela comunidade de segurança.</li>
+                <li>Compliance e Regulamentações: Dependendo da sua aplicação, você pode estar sujeito a regulamentações de criptografia específicas. Por exemplo, setores como serviços financeiros e saúde têm padrões rigorosos de segurança de dados.</li>
+                <li>Criptografia em Trânsito e em Repouso: Compreenda a diferença entre criptografia em trânsito (proteger dados durante a transferência, como SSL/TLS) e criptografia em repouso (proteger dados armazenados em dispositivos ou servidores).</li>
+                <li>Criptografia Quântica: Esteja ciente do avanço da computação quântica, que pode ameaçar a segurança de algoritmos criptográficos tradicionais. A pesquisa em criptografia pós-quântica está em andamento.</li>
+                <li>Resiliência contra Ataques: Pense em como sua implementação criptográfica lida com ataques, como ataques de força bruta, ataques de dicionário e ataques de texto claro conhecido.</li>
+                <li>Criptoanálise: Compreenda os princípios de criptoanálise, que é o estudo de como quebrar sistemas de criptografia. Isso pode ajudar a projetar sistemas mais seguros.</li>
+                <li>Documentação e Boas Práticas: Mantenha um registro detalhado de como a criptografia é implementada em seu projeto, incluindo informações sobre algoritmos, chaves e processos de recuperação. Siga as melhores práticas de desenvolvimento seguro.</li>
+                <li>Conscientização sobre Segurança: Eduque-se e eduque sua equipe sobre as ameaças de segurança cibernética e a importância da criptografia como parte de uma estratégia geral de segurança.</li>
+                <li>Testes e Auditoria: Realize testes regulares de segurança e auditorias para identificar vulnerabilidades e garantir que as implementações criptográficas sejam sólidas.</li>
+            </ol> <br>
+            <p>A criptografia desempenha um papel fundamental na segurança digital, mas é importante tratá-la como parte de uma estratégia de segurança mais ampla. Mantenha-se atualizado sobre os desenvolvimentos no campo da criptografia e siga as melhores práticas para garantir a proteção eficaz dos dados.</p>
         </article>
     </main>
     <script>
