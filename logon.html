@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar-se</title>
+    <style>
+        .form-container {
+            font-family: sans-serif;
+            font-size: 1.125rem;
+            background: #1b1a1a;
+            color: #fff;
+            padding: 5rem 2.5rem;
+            border-radius: 0.313rem;
+            width: min(90%, 400px);
+            box-shadow: 3px 0.25rem 1.25rem rgba(27, 27, 27, .2);
+            margin: auto;
+        }
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 2.75rem;
+            margin-top: -1.875rem;
+            color: #fff;
+            font-weight: normal;
+            font-size: 2rem;
+        }
+        .form-container a {
+            text-decoration: none;
+            color: #e2dc20;
+        }
+        .form-container a:hover {
+            text-decoration: underline;
+            color: #e22020;
+        }
+        .form-control {
+            position: relative;
+            margin: 1.25rem 0 2.5rem;
+        }
+        .form-control input {
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #fff;
+            display: block;
+            width: 100%;
+            padding: 1.25rem 0;
+            font-size: 1.125rem;
+            color: #fff;
+        }
+        .form-control input:focus {
+            outline: 0;
+            border-bottom-color: #c2c25a;
+        }
+        .form-control label {
+            position: absolute;
+            top: 0.938rem;
+            left: 10;
+        }
+        .form-control label span {
+            display: inline-block;
+            font-size: 1.25rem;
+            min-width: 0.313rem;
+            transition: .3s cubic-bezier(0.53, 0.246, 0.265, 1.66);
+        }
+        .form-control input:focus + label span, .form-control input:valid + label span {
+            color: #c2c25a;
+            transform: translateY(-1.875rem);
+        }
+        .log {
+            cursor: pointer;
+            display: inline-block;
+            width: 100%;
+            background: #e2dc20;
+            padding: .938rem;
+            font-family: inherit;
+            font-weight: 500;
+            font-size: 1.563rem;
+            color: #0d0f42;
+            border: 0;
+            border-radius: 0.313rem;
+            margin-bottom: 1.25rem;
+        }
+        .log:focus {
+            outline: 0;
+        }
+        .log:active {
+            transform: scale(0.98);
+        }
+        .log:hover {
+            background-color: #e22020;
+            color: #0d0f42;
+            transition-duration: .8s;
+        }
+        p {
+            text-align: center;
+            font-size: .8em;
+        }
+    </style>
+</head>
+<body>
+    <section class="form-container">
+        <h1>Sign In</h1>
+        <form>
+            <div class="form-control">
+                <input type="email" name="e-mail" id="e-mail" autocomplete="email" required>
+                <label for="e-mail"> Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" name="senha" id="senha" autocomplete="current-password new-password" required>
+                <label for="senha"> Palavra-Passe</label>
+            </div>
+            <button class="log">Sign up</button>
+            <p>Já tem uma conta? <a href="#"> Faça Login</a></p>
+            </section>
+        </form>
+    </div>
+    <script>
+        const labels = window.document.querySelectorAll('.form-control label');
+        labels.forEach((label) => {
+            label.innerHTML = label.innerText
+                .split("")
+                .map(
+                    (letter, idx) =>
+                        `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+                )
+                .join("");
+        })
+    </script>
+</body>
+</html>
