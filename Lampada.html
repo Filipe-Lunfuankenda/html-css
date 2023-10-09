@@ -29,28 +29,21 @@
     }
 </style>
 <body>
-    <center id="content">
-    <img id="lampada" class="apagada" src="imagens/lampada-apagada.jpg" alt="" title="Apagada">
-<br>
-    <button id="botao" onclick="alterarEstado();">Clique aqui</button>
+    <center>
+        <img id="lampada" class="apagada" src="imagens/lampada-apagada.jpg" alt="" title="Apagada"> <br>
+        <button id="botao" onclick="alterarEstado();">Clique aqui</button>
     </center>
     <script>
         function alterarEstado() {
     	var lampada = document.getElementById('lampada');
 
-    	if(lampada.classList.contains("apagada")) {
-
+    	if (lampada.classList.contains("apagada")) {
     		lampada.classList.add("ligada");
-
     		lampada.classList.remove("apagada");
-
     		lampada.src = "imagens/lampada-acesa.jpg";
-    	}else if(lampada.classList.contains("ligada")) {
-
+    	} else if (lampada.classList.contains("ligada")) {
     		lampada.classList.add("apagada");
-
     		lampada.classList.remove("ligada");
-
     		lampada.src = "imagens/lampada-apagada.jpg";
     	}
     }
