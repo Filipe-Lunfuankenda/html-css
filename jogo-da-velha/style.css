@@ -24,6 +24,11 @@ section {
     max-width: 50%;
 }
 
+input:focus-within {
+    background: whitesmoke;
+    color: #000;
+}
+
 button {
     background: url(patologia.png);
     padding: 10px;
