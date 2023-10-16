@@ -7,6 +7,11 @@
     color: white;
 }
 
+html, body {
+    width: 10ovw;
+    height: 100vh;
+}
+
 section {
     position: absolute;
     align-items: center;
