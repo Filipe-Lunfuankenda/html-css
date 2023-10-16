@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    font-size: 1.1em;
+    font-size: 1.2em;
     background-color: #11114d;
     text-align: center;
     color: white;
@@ -20,7 +20,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    max-height: 50%;
+    max-height: 95%;
     max-width: 50%;
 }
 
