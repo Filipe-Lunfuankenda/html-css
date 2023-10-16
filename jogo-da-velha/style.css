@@ -4,6 +4,7 @@
     font-size: 1.1em;
     background-color: #11114d;
     text-align: center;
+    color: white;
 }
 
 section {
@@ -14,7 +15,6 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: white;
     max-height: 50%;
     max-width: 50%;
 }
