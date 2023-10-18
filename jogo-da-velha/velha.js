@@ -34,7 +34,7 @@ function exibe()
      HTML +='<td> O </td>';
   HTML += '</tr>';
  }
- HTML += '</table><br />';
+ HTML += '</table><br/>';
  board.innerHTML = HTML
 }
 
@@ -50,7 +50,7 @@ function jogar()
   else
    tabuleiro[lin][col] = -1;
  else{
-  aviso.innerHTML='Campo ja foi marcado!'
+  aviso.innerHTML='Este Campo já foi marcado!'
   jogador--;
  }
 
