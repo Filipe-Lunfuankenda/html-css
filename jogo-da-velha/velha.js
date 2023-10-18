@@ -62,6 +62,7 @@ function jogar()
 function checa()
 {
  var soma;
+ 
  //Linhas
  for(let i=0 ; i<3 ; i++){
   soma=0;
@@ -70,6 +71,7 @@ function checa()
   if(soma==3 || soma==-3)
    aviso.innerHTML="Jogador " + ((jogador)%2 + 1) + " ganhou! Linha " + (i+1) + " preenchida!";
  }
+
  //Colunas
  for(let i=0 ; i<3 ; i++){
   soma=0;
