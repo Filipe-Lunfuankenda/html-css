@@ -21,8 +21,8 @@ exibe();
 
 function exibe()
 {
- HTML = '<table  cellpadding="10" border="1">';
- for(let i=0; i<3 ; i++){
+ HTML = '<table cellpadding="10" border="1">';
+ for(let i=0; i<3 ; i++) {
   HTML += '<tr>';
   for(let j=0 ; j<3 ; j++)
    if(tabuleiro[i][j]==0)
@@ -49,7 +49,7 @@ function jogar()
    tabuleiro[lin][col] = 1;
   else
    tabuleiro[lin][col] = -1;
- else{
+ else {
   aviso.innerHTML='Este Campo já foi marcado!'
   jogador--;
  }
@@ -62,7 +62,6 @@ function jogar()
 function checa()
 {
  var soma;
-
  //Linhas
  for(let i=0 ; i<3 ; i++){
   soma=0;
@@ -71,7 +70,6 @@ function checa()
   if(soma==3 || soma==-3)
    aviso.innerHTML="Jogador " + ((jogador)%2 + 1) + " ganhou! Linha " + (i+1) + " preenchida!";
  }
-
  //Colunas
  for(let i=0 ; i<3 ; i++){
   soma=0;
@@ -80,13 +78,11 @@ function checa()
   if(soma==3 || soma==-3)
    aviso.innerHTML="Jogador " + ((jogador)%2 + 1) + " ganhou! Coluna " + (i+1) + " preenchida!";
  }
-
  //Diagonal
  soma=0;
  soma = tabuleiro[0][0]+tabuleiro[1][1]+tabuleiro[2][2];
  if(soma==3 || soma==-3)
    aviso.innerHTML="Jogador " + ((jogador)%2 + 1) + " ganhou! Diagonal preenchida!";
-
  //Diagonal
  soma=0;
  soma = tabuleiro[0][2]+tabuleiro[1][1]+tabuleiro[2][0];
