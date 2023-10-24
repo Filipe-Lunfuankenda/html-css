@@ -1,0 +1,79 @@
+/* CÓDIGO CSS PARA ESTILIZAR A PÁGINA HTML DA CALCULADORA */
+html, body {
+    background: #1f305f;
+}
+.calculadora {
+    margin: auto;
+    padding: 10px;
+    border: 3px solid rgba(173, 216, 230, 0.781);
+    border-radius: 15px;
+    max-width: 370px;
+    background-image: linear-gradient(orange, orangered);
+    font-size: 20px;
+}
+.botao_calculadora {
+    background-color: blue;
+    border:none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora:hover {
+    background-color: #6611dd;
+}
+.exibir_dados {
+    margin-left: 9px;
+    margin-top: 10px;
+    font-size: 40px;
+    max-width: 345px;
+    height: 60px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;   
+}
+.exibir_dados::placeholder {
+    color: black;
+}
+.nome {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+    letter-spacing: 2.2px;
+}
+.msg-erro {
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    margin-left: 39%;
+
+}
+.botao_calculadora1 {
+    background-color: blue;
+    border:none;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora1:hover {
+    background-color: #6611dd;
+}
+
+.botao_calculadora2 {
+    background-color: blue;
+    border:none;
+    color: white;
+    width: 130px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.botao_calculadora2:hover {
+    background-color: #6611dd;
+}
