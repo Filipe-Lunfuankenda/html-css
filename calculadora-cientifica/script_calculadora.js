@@ -10,7 +10,6 @@ var expressao_exibida = '';
 var nova_expressao;
 var nova_expressao_exibida;
 function sendNum(digit) {
-       
        expressao_exibida = expressao_exibida + digit;
        expressao = expressao + digit;
        if (expressao[expressao.length-1]=='!'){
