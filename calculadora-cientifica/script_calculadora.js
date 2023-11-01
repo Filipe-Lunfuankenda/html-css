@@ -50,7 +50,7 @@ function sendNum(digit) {
                      var var_verifica = numero;
                             for(numero; numero > 0; numero--) {
                      
-                                   if(numero == var_verifica - 1){
+                                   if (numero == var_verifica - 1) {
                                           calcula_fatorial = calcula_fatorial.replace(calcula_fatorial[0], "") + "*" + numero
                                    }
                                    else{
@@ -58,14 +58,14 @@ function sendNum(digit) {
                                    }
                             }
               }
-              else if (resultado != 0){
+              else if (resultado != 0) {
                      var var_verifica = resultado;
-                     for(resultado; resultado > 0; resultado--){
+                     for(resultado; resultado > 0; resultado--) {
                      
-                            if(resultado == var_verifica - 1){
+                            if (resultado == var_verifica - 1) {
                                    calcula_fatorial = calcula_fatorial.replace(calcula_fatorial[0], "") + "*" + resultado
                             }
-                            else{
+                            else {
                                    calcula_fatorial = calcula_fatorial + "*" + resultado
                             }
                      }
