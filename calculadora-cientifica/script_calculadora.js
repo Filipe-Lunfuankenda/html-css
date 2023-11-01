@@ -79,28 +79,28 @@ function sendNum(digit) {
               expressao = expressao + resultado_fatorial;
        }
 
-       if(digit=='**2'){
+       if (digit=='**2') {
             expressao_exibida = expressao_exibida.replace('**2', '^2');
        }
 
-       if(digit=='**(-1)'){
+       if (digit=='**(-1)') {
               expressao_exibida = expressao_exibida.replace('**(-1)', '^(-1)');
        }
 
-       if(digit=='**'){
+       if (digit=='**') {
               expressao_exibida = expressao_exibida.replace('**', '^');
 
        }
 
-       if(digit=='*10**'){
+       if (digit=='*10**') {
               expressao_exibida = expressao_exibida.replace('*10**', 'E');
        }
 
-       if(digit=='*0.01*'){
+       if (digit=='*0.01*') {
               expressao_exibida = expressao_exibida.replace('*0.01*', '%');
        }
 
-       if(digit=='√'){
+       if (digit=='√') {
               nova_expressao= expressao.replace(/.$/, '');
               expressao=nova_expressao
               expressao_exibida=nova_expressao
