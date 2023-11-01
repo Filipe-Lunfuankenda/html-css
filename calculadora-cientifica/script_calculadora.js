@@ -136,7 +136,7 @@ function equalTo() {
        if (Number.isInteger(expressao) == false) {
            expressao = expressao.toFixed(2)
        }
-       if (resultado == Infinity){
+       if (resultado == Infinity) {
               expressao="Erro!";
               document.getElementById('screen').placeholder = expressao;
               expressao = '';
