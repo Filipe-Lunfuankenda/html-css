@@ -27,7 +27,7 @@ function sendNum(digit) {
        if (qtd_num == 1) {
               numero = numero + digit
               qtd_num = 0;
-       } else if(digit == '!'){
+       } else if (digit == '!') {
               numero = numero;
        }
        else {
@@ -44,11 +44,11 @@ function sendNum(digit) {
               expressao_exibida='1'       
        }
 
-       if (digit == '!' && expressao_exibida!='1'){
+       if (digit == '!' && expressao_exibida!='1') {
               if (numero != ''&& numero!='0') {
                      numero = parseInt(numero)
                      var var_verifica = numero;
-                            for(numero; numero > 0; numero--){
+                            for(numero; numero > 0; numero--) {
                      
                                    if(numero == var_verifica - 1){
                                           calcula_fatorial = calcula_fatorial.replace(calcula_fatorial[0], "") + "*" + numero
