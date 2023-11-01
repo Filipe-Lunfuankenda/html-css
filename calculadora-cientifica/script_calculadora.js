@@ -101,16 +101,15 @@ function sendNum(digit) {
        }
 
        if (digit=='√') {
-              nova_expressao= expressao.replace(/.$/, '');
-              expressao=nova_expressao
-              expressao_exibida=nova_expressao
+              nova_expressao = expressao.replace(/.$/, '');
+              expressao = nova_expressao
+              expressao_exibida = nova_expressao
               expressao_exibida = Math.sqrt(Number(expressao_exibida))
               expressao = Math.sqrt(Number(expressao))
               expressao_exibida = `${expressao_exibida}`
-       
        }
 
-       if(expressao[0] == '0' && expressao.length>1){
+       if (expressao[0] == '0' && expressao.length>1) {
               expressao_exibida = expressao_exibida.replace('0', '');
               expressao = expressao.replace('0', '');
               console.log(expressao_exibida)
@@ -128,7 +127,7 @@ function equalTo() {
        if (Number.isInteger(resultado)) {
               document.getElementById('screen').placeholder = resultado;
        }
-       else{
+       else {
               document.getElementById('screen').placeholder = resultado.toFixed(2);
        }
 
