@@ -20,12 +20,12 @@ function sendNum(digit) {
        for (i in lista_numeros) {
               if (digit == lista_numeros[i]) {
                      var qtd_num = 0;
-                     qtd_num = qtd_num + 1;
+                     qtd_num += 1;
               }
        }
        
        if (qtd_num == 1) {
-              numero = numero + digit
+              numero += digit
               qtd_num = 0;
        } else if (digit == '!') {
               numero = numero;
