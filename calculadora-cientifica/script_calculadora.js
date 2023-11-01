@@ -12,7 +12,7 @@ var nova_expressao_exibida;
 function sendNum(digit) {
        expressao_exibida += digit;
        expressao += digit;
-       if (expressao[expressao.length-1]=='!'){
+       if (expressao[expressao.length-1]=='!') {
               console.log(expressao[expressao.length-1])
               expressao=''
        }
@@ -53,7 +53,7 @@ function sendNum(digit) {
                                    if (numero == var_verifica - 1) {
                                           calcula_fatorial = calcula_fatorial.replace(calcula_fatorial[0], "") + "*" + numero
                                    }
-                                   else{
+                                   else {
                                           calcula_fatorial = calcula_fatorial + "*" + numero
                                    }
                             }
@@ -70,11 +70,9 @@ function sendNum(digit) {
                             }
                      }
               }
-             
               resultado_fatorial = eval(calcula_fatorial);
               numero = '';
-              calcula_fatorial = '';
-              
+              calcula_fatorial = ''; 
               expressao = expressao.replace('!', '');
               expressao = expressao + resultado_fatorial;
        }
