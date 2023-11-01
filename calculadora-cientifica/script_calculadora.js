@@ -160,13 +160,13 @@ function equalTo() {
 }
 
 function deletar_char(){
-       if(expressao_exibida[expressao_exibida.length - 1] == '%'){
+       if (expressao_exibida[expressao_exibida.length - 1] == '%') {
               console.log("funcionou")
               nova_expressao= expressao.replace('*0.01*', '');
               nova_expressao_exibida = expressao_exibida.replace(/.$/, '');
 
        }
-       else{
+       else {
               nova_expressao= expressao.replace(/.$/, '');
               nova_expressao_exibida = expressao_exibida.replace(/.$/, '');
        }
@@ -179,7 +179,7 @@ function deletar_char(){
        return expressao
 }
 
-function clearScr(){
+function clearScr() {
 	expressao = '';
        expressao_exibida = '';
        numero = '';
