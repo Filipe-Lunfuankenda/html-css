@@ -39,9 +39,9 @@ function sendNum(digit) {
               expressao_exibida = '1'
               
        }
-       else if (expressao_exibida=='1!') {
-              expressao='1'
-              expressao_exibida='1'       
+       else if (expressao_exibida == '1!') {
+              expressao = '1'
+              expressao_exibida = '1'       
        }
 
        if (digit == '!' && expressao_exibida!='1') {
