@@ -25,7 +25,7 @@ function sendNum(digit) {
        }
        
        if (qtd_num == 1) {
-              numero += digit
+              numero += digit;
               qtd_num = 0;
        } else if (digit == '!') {
               numero = numero;
@@ -34,9 +34,9 @@ function sendNum(digit) {
               numero = '';
        }
        
-       if (expressao_exibida=='0!') {
-              expressao='1'
-              expressao_exibida='1'
+       if (expressao_exibida == '0!') {
+              expressao = '1'
+              expressao_exibida = '1'
               
        }
        else if (expressao_exibida=='1!') {
