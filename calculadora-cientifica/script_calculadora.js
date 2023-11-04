@@ -14,7 +14,7 @@ function sendNum(digit) {
        expressao += digit;
        if (expressao[expressao.length-1]=='!') {
               console.log(expressao[expressao.length-1])
-              expressao=''
+              expressao = ''
        }
 
        for (i in lista_numeros) {
