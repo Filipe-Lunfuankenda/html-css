@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #4CAF50,#4d101f);
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    background-color: #4d101f;
+    display: block;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#score {
+    font-size: 18px;
+}
