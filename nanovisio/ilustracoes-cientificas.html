@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilustrações Científicas - NanoVisio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@preline/preline@2.0.0/dist/preline.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Cabeçalho -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-atom text-3xl text-blue-600"></i>
+                    <a href="index.html" class="text-2xl font-bold text-blue-800">NanoVisio</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-gray-600 hover:text-blue-600 transition">Início</a>
+                    <a href="index.html#about" class="text-gray-600 hover:text-blue-600 transition">Sobre</a>
+                    <a href="index.html#gallery" class="text-gray-600 hover:text-blue-600 transition">Ilustrações</a>
+                    <a href="index.html#videos" class="text-gray-600 hover:text-blue-600 transition">Vídeos</a>
+                    <a href="contacto.html" class="text-gray-600 hover:text-blue-600 transition">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-gradient text-white pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Ilustrações Científicas</h1>
+            <p class="text-xl mb-8 text-blue-100">Explore representações visuais que ajudam a compreender o mundo nanoscópico.</p>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Galeria de Ilustrações</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <img src="imagens/nanoparticula-modelo-moderno.jpeg" alt="Nanopartículas" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Nanopartículas</h3>
+                        <p class="text-gray-600">Estruturas nanométricas com propriedades únicas usadas em medicina e materiais.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <img src="imagens/nanotubo-carbono.jpeg" alt="Nanotubos de carbono" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Nanotubos de Carbono</h3>
+                        <p class="text-gray-600">Materiais extremamente resistentes e leves com diversas aplicações industriais.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <img src="imagens/conexao-nanoeletronica.jpeg" alt="Nanoeletrônica" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Nanoeletrônica</h3>
+                        <p class="text-gray-600">Componentes eletrônicos em escala nanométrica para dispositivos mais eficientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="site-footer" class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">© 2023 NanoVisio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
