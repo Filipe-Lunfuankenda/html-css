@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Educativos - NanoVisio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@preline/preline@2.0.0/dist/preline.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Cabeçalho -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-atom text-3xl text-blue-600"></i>
+                    <a href="index.html" class="text-2xl font-bold text-blue-800">NanoVisio</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-gray-600 hover:text-blue-600 transition">Início</a>
+                    <a href="index.html#about" class="text-gray-600 hover:text-blue-600 transition">Sobre</a>
+                    <a href="index.html#gallery" class="text-gray-600 hover:text-blue-600 transition">Ilustrações</a>
+                    <a href="index.html#videos" class="text-gray-600 hover:text-blue-600 transition">Vídeos</a>
+                    <a href="contacto.html" class="text-gray-600 hover:text-blue-600 transition">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-gradient text-white pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Vídeos Educativos</h1>
+            <p class="text-xl mb-8 text-blue-100">Aprenda sobre nanotecnologia com vídeos interativos e informativos.</p>
+        </div>
+    </section>
+
+    <!-- Seção Galeria de Vídeos -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Galeria de Vídeos</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <video class="w-full h-48 object-cover" controls>
+                        <source src="videos/intro.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Introdução à Nanotecnologia</h3>
+                        <p class="text-gray-600">Uma visão geral sobre o mundo nanoscópico e suas aplicações.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <video class="w-full h-48 object-cover" controls>
+                        <source src="videos/nanomedicina-aplicacoes.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Nanomedicina</h3>
+                        <p class="text-gray-600">Como a nanotecnologia está transformando a medicina moderna.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover fade-in">
+                    <video class="w-full h-48 object-cover" controls>
+                        <source src="videos/nanoeletronica.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Nanoeletrônica</h3>
+                        <p class="text-gray-600">Avanços em dispositivos eletrônicos com nanotecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <iframe src="footer.html" class="w-full" style="border: none; height: auto;"></iframe>
+</body>
+</html>
